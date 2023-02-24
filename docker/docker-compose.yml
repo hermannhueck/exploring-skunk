@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  skunk-world:
+    image:
+      tpolecat/skunk-world
+    ports:
+      - "5432:5432"
